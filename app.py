@@ -14,3 +14,8 @@ def status():
     return {
         "status" : "ok"
     }
+
+@app.route("/developers")
+def developers():
+    return "Shagato Chowdhury & Umme Munia"
+
